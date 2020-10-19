@@ -1,0 +1,17 @@
+{
+  "about": {
+    "js": "/dist/dashboard/js/about.c787ca3d.js"
+  },
+  "app": {
+    "css": "/dist/dashboard/css/app.b229284b.css",
+    "js": "/dist/dashboard/js/app.ee61ff2e.js"
+  },
+  "chunk-vendors": {
+    "js": "/dist/dashboard/js/chunk-vendors.a65a675b.js"
+  },
+  "": {
+    "ico": "/dist/dashboard/favicon.ico",
+    "png": "/dist/dashboard/img/logo.82b9c7a5.png",
+    "html": "/dist/dashboard/index.html"
+  }
+}

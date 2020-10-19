@@ -1,0 +1,8 @@
+{{ $styles := .Site.Data.webpack_assets_dashboard.app }}
+  {{ with $styles.css }}
+  <link rel="stylesheet" href="{{ . }}">
+{{ end }}
+
+<div id="app"></div>
+
+{{ partial "dashboard_footer.html" . }}

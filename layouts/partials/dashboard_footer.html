@@ -1,0 +1,7 @@
+{{ $script := .Site.Data.webpack_assets_dashboard }}
+{{ with (index $script "chunk-vendors") }}
+  <script src="{{ relURL (printf `%s` .js) }}"></script>
+{{ end }}
+{{ with $script.app.js }}
+  <script src="{{ relURL (printf `%s` .) }}"></script>
+{{ end }}
